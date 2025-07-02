@@ -5,11 +5,28 @@ This repository is my personal learning space for exploring FHIR (Fast Healthcar
 
 ## 🔧 Projects
 
-| Folder | Description |
-|--------|-------------|
-| [`fhir-patient-service`](./fhir-patient-service) | Spring Boot + HAPI FHIR API for managing Patient resources |
-| [`fhir-ui-angular`](./fhir-ui-angular) | Angular frontend to interact with the FHIR APIs |
-| [`smart-on-fhir-auth`](./smart-on-fhir-auth) | OAuth2 authorization flow for SMART-on-FHIR apps |
-| [`notes`](./notes) | My learning notes, diagrams, API flows |
+fhir-playground/
+├── fhir-patient-service/
+│   └── Spring Boot + HAPI JPA for Patient
+├── fhir-cc/
+│   └── Routing controller / Gateway
+├── fhir-server/
+│   └── Optional full JPA server
+├── smart-on-fhir/
+│   └── OAuth2 + launch + redirect
+└── notes/
+    ├── HL7-FHIR-vs-HL7-v2.md
+    ├── HAPI-Annotations.md
+    └── Interview-Ready-Concepts.md
+  
+⚙️ Tools You’ll Be Using--------------
+Tool	Purpose
+HAPI FHIR	HL7-compliant API engine
+Spring Boot	Microservice framework
+MySQL/H2	Backend DB
+Postman	API testing
+Swagger/OpenAPI	API documentation
+Docker	Containerize services
+OAuth2 (SMART-on-FHIR)	Auth (if time allows)
 
 > This is a sandbox repo meant for learning and personal growth.
